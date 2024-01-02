@@ -1,0 +1,6 @@
+apiVersion: v2
+name: logi-gniazdka
+description: A Helm chart for logging from gniazdka
+type: application
+version: 0.1.0
+appVersion: "1.0"
