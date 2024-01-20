@@ -12,6 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Skopiuj skrypt do katalogu roboczego
 COPY . .
+RUN rm Dockerfile
 
 # Uruchom skrypt Pythona przy starcie kontenera
 CMD ["python", "app.py"]
