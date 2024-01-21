@@ -128,4 +128,4 @@ while True:
                     json.dump(offline_data, file)
 
     # Czekanie 300 sekund
-    time.sleep(120.0)
+    time.sleep(1200.0)
