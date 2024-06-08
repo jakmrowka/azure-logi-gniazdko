@@ -7,7 +7,7 @@ parameters:
 - name: buildImage
   displayName: 'Build Docker Image'
   type: boolean
-  default: true
+  default: false
 - name: helmOperation
   displayName: 'Helm Operation'
   type: string
@@ -36,7 +36,7 @@ variables:
 - name: es_index
   value: 'search-gniazdko'
 - name: es_url
-  value: 'http://87.207.10.127'
+  value: 'http://87.207.189.239'
 - name: repo_github
   value: 'https://github.com/jakmrowka/azure-logi-gniazdko'
 - name: device_type
